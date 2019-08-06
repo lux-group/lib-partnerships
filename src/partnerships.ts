@@ -3,6 +3,7 @@ export interface Partnership {
   brandName: string;
   code: string;
   color: string;
+  currencyCodes: string[];
   hasBurn: boolean;
   hasEarn: boolean;
   icon: string;
@@ -28,6 +29,9 @@ export const Qantas: Partnership = {
   brandName: "Qantas",
   code: "qantas",
   color: "#E5242A",
+  currencyCodes: [
+    "AU",
+  ],
   hasBurn: true,
   hasEarn: true,
   icon: "Qantas_2x_f6vhzx",
@@ -56,6 +60,21 @@ export const KrisFlyer: Partnership = {
   brandName: "Singapore Airlines",
   code: "krisFlyer",
   color: "#1D4886",
+  currencyCodes: [
+    "CNY",
+    "HKD",
+    "IDR",
+    "JPY",
+    "KRW",
+    "MYR",
+    "PHP",
+    "SGD",
+    "TWD",
+    "THB",
+    "GBP",
+    "USD",
+    "VND",
+  ],
   hasBurn: false,
   hasEarn: true,
   icon: "krisFlyer_2x_izuqwc",
