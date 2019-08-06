@@ -2,9 +2,10 @@
   "name": "@luxuryescapes/lib-partnerships",
   "version": "1.0.0",
   "description": "Partnership information for Luxury Escapes",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "test": "ts-node src/index.test.ts",
     "lint": "tslint -p tsconfig.json",
     "lint-fix": "tslint --fix -p tsconfig.json",
