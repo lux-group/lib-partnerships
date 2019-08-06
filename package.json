@@ -1,9 +1,15 @@
 {
   "name": "@luxuryescapes/lib-partnerships",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Partnership information for Luxury Escapes",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "repository": "https://github.com/brandsExclusive/lib-partnerships",
+  "license": "UNLICENSED",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "build": "rm -rf lib && tsc",
     "test": "ts-node src/index.test.ts",
@@ -14,8 +20,6 @@
     "preversion": "yarn run lint",
     "postversion": "git push && git push --tags"
   },
-  "repository": "https://github.com/brandsExclusive/lib-partnerships",
-  "license": "UNLICENSED",
   "devDependencies": {
     "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
