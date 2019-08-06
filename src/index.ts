@@ -18,6 +18,9 @@ function findPartnershipByCode(partnershipCode: string) {
 export function isPartnership(partnershipCode: string) {
   const partnership = findPartnershipByCode(partnershipCode);
   return {
+    earnableIn: (currencyCode: string): boolean => {
+      return partnership.currencyCodes.includes(currencyCode);
+    },
     supportedIn: (regionCode: string): boolean => {
       return partnership.regionCodes.includes(regionCode);
     },

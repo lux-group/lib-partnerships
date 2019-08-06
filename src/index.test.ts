@@ -17,13 +17,23 @@ function refute(desc: string, value?: any): void {
 }
 
 assert(
-  "gets region code for partnership",
+  "returns true if supported in region code",
   isPartnership("qantas").supportedIn("AU")
 )
 
 refute(
-  "does not get partnership for invalid region code",
+  "returns false if not supported in region code",
   isPartnership("qantas").supportedIn("IS")
+)
+
+assert(
+  "returns true if earnable in currency code",
+  isPartnership("qantas").earnableIn("AUD")
+)
+
+refute(
+  "returns false if earnable in currency code",
+  isPartnership("qantas").earnableIn("ZWL")
 )
 
 assert(
