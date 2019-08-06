@@ -30,7 +30,7 @@ export const Qantas: Partnership = {
   code: "qantas",
   color: "#E5242A",
   currencyCodes: [
-    "AU",
+    "AUD",
   ],
   hasBurn: true,
   hasEarn: true,
