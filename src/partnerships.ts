@@ -23,8 +23,8 @@ export interface Partnership {
 
 export const Qantas: Partnership = {
   accountFields: [
-    "qff",
-    "qff_last_name",
+    "account_id",
+    "last_name",
   ],
   brandName: "Qantas",
   code: "qantas",
@@ -53,9 +53,9 @@ export const Qantas: Partnership = {
 
 export const KrisFlyer: Partnership = {
   accountFields: [
-    "kfp",
-    "kfp_first_name",
-    "kfp_last_name",
+    "account_id",
+    "first_name",
+    "last_name",
   ],
   brandName: "Singapore Airlines",
   code: "krisFlyer",
