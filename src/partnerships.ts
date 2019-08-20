@@ -30,6 +30,7 @@ export const Qantas: Partnership = {
   brandName: "Qantas",
   code: "qantas",
   color: "#E5242A",
+  confirmationText: "Your Qantas Points will land in your Frequent Flyer account in 30 days.",
   currencyCodes: [
     "AUD",
   ],
@@ -50,7 +51,6 @@ export const Qantas: Partnership = {
   rewardCurrency: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
-  confirmationText: "Your Qantas Points will land in your Frequent Flyer account in 30 days.",
 };
 
 export const KrisFlyer: Partnership = {
@@ -62,6 +62,7 @@ export const KrisFlyer: Partnership = {
   brandName: "Singapore Airlines",
   code: "krisFlyer",
   color: "#1D4886",
+  confirmationText: "Your miles will land in your KrisFlyer account in 30 days.",
   currencyCodes: [
     "CNY",
     "HKD",
@@ -106,5 +107,4 @@ export const KrisFlyer: Partnership = {
   rewardCurrency: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
-  confirmationText: "Your miles will land in your KrisFlyer account in 30 days.",
 };
