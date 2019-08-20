@@ -19,6 +19,7 @@ export interface Partnership {
   rewardCurrency: string;
   rewardName: string;
   rewardPer: string;
+  confirmationText: string;
 }
 
 export const Qantas: Partnership = {
@@ -49,6 +50,7 @@ export const Qantas: Partnership = {
   rewardCurrency: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
+  confirmationText: "Your Qantas Points will land in your Frequent Flyer account in 30 days.",
 };
 
 export const KrisFlyer: Partnership = {
@@ -104,4 +106,5 @@ export const KrisFlyer: Partnership = {
   rewardCurrency: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
+  confirmationText: "Your miles will land in your KrisFlyer account in 30 days.",
 };
