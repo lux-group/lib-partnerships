@@ -91,7 +91,7 @@ export const KrisFlyer: Partnership = {
   regionCodes: [
     "CN",
     "HK",
-    "IN",
+    "ID",
     "JP",
     "KR",
     "MY",
