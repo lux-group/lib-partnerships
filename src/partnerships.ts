@@ -87,7 +87,7 @@ export const KrisFlyer: Partnership = {
   numberMaxLength: 10,
   prefix: "kfp",
   programLogo: "krisFlyerLogo_2x_md61qq",
-  programName: "Kris flyer",
+  programName: "KrisFlyer",
   regionCodes: [
     "CN",
     "HK",
