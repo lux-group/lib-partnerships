@@ -1,8 +1,10 @@
 export interface Partnership {
   accountFields: string[];
+  bonusUnit: string;
   brandName: string;
   code: string;
   color: string;
+  confirmationText: string;
   currencyCodes: string[];
   hasBurn: boolean;
   hasEarn: boolean;
@@ -19,8 +21,6 @@ export interface Partnership {
   rewardCurrency: string;
   rewardName: string;
   rewardPer: string;
-  confirmationText: string;
-  bonusUnit: string;
 }
 
 export const Qantas: Partnership = {
@@ -28,6 +28,7 @@ export const Qantas: Partnership = {
     "account_id",
     "last_name",
   ],
+  bonusUnit: "point",
   brandName: "Qantas",
   code: "qantas",
   color: "#E5242A",
@@ -52,7 +53,6 @@ export const Qantas: Partnership = {
   rewardCurrency: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
-  bonusUnit: "point",
 };
 
 export const KrisFlyer: Partnership = {
@@ -61,6 +61,7 @@ export const KrisFlyer: Partnership = {
     "first_name",
     "last_name",
   ],
+  bonusUnit: "mile",
   brandName: "Singapore Airlines",
   code: "krisFlyer",
   color: "#1D4886",
@@ -109,5 +110,4 @@ export const KrisFlyer: Partnership = {
   rewardCurrency: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
-  bonusUnit: "mile",
 };
