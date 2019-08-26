@@ -18,10 +18,10 @@ export interface Partnership {
   programName: string;
   regionCodes: string[];
   reverseLogo: string;
+  rewardConversion: number;
   rewardCurrency: string;
   rewardName: string;
   rewardPer: string;
-  rewardConversion: number;
 }
 
 export const Qantas: Partnership = {
@@ -51,10 +51,10 @@ export const Qantas: Partnership = {
     "AU",
   ],
   reverseLogo: "QffLogoReverse_2x_sxllsy",
+  rewardConversion: 1,
   rewardCurrency: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
-  rewardConversion: 1,
 };
 
 export const KrisFlyer: Partnership = {
@@ -109,8 +109,8 @@ export const KrisFlyer: Partnership = {
     "VN",
   ],
   reverseLogo: "krisFlyerLogoReverse_2x_gaivta",
+  rewardConversion: 1,
   rewardCurrency: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
-  rewardConversion: 1,
 };
