@@ -21,6 +21,7 @@ export interface Partnership {
   rewardCurrency: string;
   rewardName: string;
   rewardPer: string;
+  rewardConversion: number;
 }
 
 export const Qantas: Partnership = {
@@ -53,6 +54,7 @@ export const Qantas: Partnership = {
   rewardCurrency: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
+  rewardConversion: 1,
 };
 
 export const KrisFlyer: Partnership = {
@@ -110,4 +112,5 @@ export const KrisFlyer: Partnership = {
   rewardCurrency: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
+  rewardConversion: 1,
 };
