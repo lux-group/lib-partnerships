@@ -87,7 +87,7 @@ export const KrisFlyer: Partnership = {
   hasEarn: true,
   icon: "krisFlyer_2x_afsst6",
   iconReversed: "krisFlyer_2x_afsst6",
-  joinUrl: "https://www.singaporeair.com/KrisFlyer",
+  joinUrl: "https://www.singaporeair.com/en_UK/ppsclub-krisflyer/registration-form/",
   landingPage: "kris-flyer",
   numberMaxLength: 10,
   prefix: "kfp",
