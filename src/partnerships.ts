@@ -114,3 +114,38 @@ export const KrisFlyer: Partnership = {
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
 };
+
+// Images Pending from AMANDA
+export const Vistara: Partnership = {
+  accountFields: [
+    "account_id",
+    "first_name",
+    "last_name",
+  ],
+  bonusUnit: "points",
+  brandName: "Vistara",
+  code: "vistara",
+  color: "#582c4f",
+  confirmationText: "Your Vistara Points will land in your Frequent Flyer account in 30 days.",
+  currencyCodes: [
+    "INR",
+  ],
+  hasBurn: false,
+  hasEarn: true,
+  icon: "krisFlyer_2x_afsst6",
+  iconReversed: "krisFlyer_2x_afsst6",
+  joinUrl: "https://www.airvistara.com/trip/register",
+  landingPage: "club-vistara",
+  numberMaxLength: 14,
+  prefix: "cvp",
+  programLogo: "krisFlyerLogo_2x_md61qq",
+  programName: "Club Vistara",
+  regionCodes: [
+    "IN",
+  ],
+  reverseLogo: "krisFlyerLogoReverse_2x_gaivta",
+  rewardConversion: 0.2,
+  rewardCurrency: "INR",
+  rewardName: "CV Points",
+  rewardPer: "₹20",
+};
