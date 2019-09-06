@@ -19,7 +19,7 @@ export interface Partnership {
   regionCodes: string[];
   reverseLogo: string;
   rewardConversion: number;
-  rewardCurrency: string;
+  rewardCurrencyCode: string;
   rewardName: string;
   rewardPer: string;
 }
@@ -52,7 +52,7 @@ export const Qantas: Partnership = {
   ],
   reverseLogo: "QffLogoReverse_2x_sxllsy",
   rewardConversion: 1,
-  rewardCurrency: "AUD",
+  rewardCurrencyCode: "AUD",
   rewardName: "Qantas Points",
   rewardPer: "$1",
 };
@@ -110,7 +110,7 @@ export const KrisFlyer: Partnership = {
   ],
   reverseLogo: "krisFlyerLogoReverse_2x_gaivta",
   rewardConversion: 1,
-  rewardCurrency: "USD",
+  rewardCurrencyCode: "USD",
   rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
 };
@@ -145,7 +145,7 @@ export const Vistara: Partnership = {
   ],
   reverseLogo: "krisFlyerLogoReverse_2x_gaivta",
   rewardConversion: 0.2,
-  rewardCurrency: "INR",
+  rewardCurrencyCode: "INR",
   rewardName: "CV Points",
   rewardPer: "₹20",
 };
