@@ -116,7 +116,7 @@ export const KrisFlyer: Partnership = {
   landingPageLogo: "KrisFlyer-Luxury-Escapes_xhzlwg",
   rewardConversion: 1,
   rewardCurrency: "USD",
-  rewardName: "KrisFlyer Miles",
+  rewardName: "KrisFlyer miles",
   rewardPer: "$1 USD",
 };
 
