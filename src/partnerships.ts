@@ -127,11 +127,11 @@ export const Vistara: Partnership = {
     "first_name",
     "last_name",
   ],
-  bonusUnit: "points",
+  bonusUnit: "point",
   brandName: "Vistara",
   code: "vistara",
   color: "#582c4f",
-  confirmationText: "Your Vistara Points will land in your Frequent Flyer account in 30 days.",
+  confirmationText: "Your points will land in your Vistara account in 40 days.",
   currencyCodes: [
     "INR",
   ],
