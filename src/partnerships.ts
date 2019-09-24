@@ -154,7 +154,7 @@ export const Vistara: Partnership = {
     "IN",
   ],
   reverseLogo: "VistaraLogoReverse_2x_f7a8ub",
-  rewardConversion: 0.2,
+  rewardConversion: 0.05,
   rewardCurrency: "INR",
   rewardName: "CV Points",
   rewardPer: "₹20",
