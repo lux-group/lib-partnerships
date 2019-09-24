@@ -1,5 +1,6 @@
 export interface Partnership {
   accountFields: string[];
+  bonusPointCost: number;
   bonusUnit: string;
   brandName: string;
   code: string;
@@ -30,6 +31,7 @@ export const Qantas: Partnership = {
     "account_id",
     "last_name",
   ],
+  bonusPointCost: 1,
   bonusUnit: "point",
   brandName: "Qantas",
   code: "qantas",
@@ -65,6 +67,7 @@ export const KrisFlyer: Partnership = {
     "first_name",
     "last_name",
   ],
+  bonusPointCost: 1,
   bonusUnit: "mile",
   brandName: "Singapore Airlines",
   code: "krisFlyer",
@@ -127,6 +130,7 @@ export const Vistara: Partnership = {
     "first_name",
     "last_name",
   ],
+  bonusPointCost: 20,
   bonusUnit: "point",
   brandName: "Vistara",
   code: "vistara",
