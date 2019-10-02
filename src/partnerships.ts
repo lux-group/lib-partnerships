@@ -1,5 +1,6 @@
 export interface Partnership {
   accountFields: string[];
+  accountFieldsLabels: object;
   bonusPointCost: number;
   bonusUnit: string;
   brandName: string;
@@ -32,6 +33,10 @@ export const Qantas: Partnership = {
     "account_id",
     "last_name",
   ],
+  accountFieldsLabels: {
+    account_id: "Qantas Number",
+    last_name: "Qantas Last Name",
+  },
   bonusPointCost: 1,
   bonusUnit: "point",
   brandName: "Qantas",
@@ -69,6 +74,11 @@ export const KrisFlyer: Partnership = {
     "first_name",
     "last_name",
   ],
+  accountFieldsLabels: {
+    account_id: "KrisFlyer Number",
+    first_name: "KrisFlyer First Name",
+    last_name: "KrisFlyer Last Name",
+  },
   bonusPointCost: 1,
   bonusUnit: "mile",
   brandName: "Singapore Airlines",
@@ -133,6 +143,11 @@ export const Vistara: Partnership = {
     "first_name",
     "last_name",
   ],
+  accountFieldsLabels: {
+    account_id: "Club Vistara ID",
+    first_name: "Club Vistara First Name",
+    last_name: "Club Vistara Last Name",
+  },
   bonusPointCost: 20,
   bonusUnit: "point",
   brandName: "Vistara",
@@ -146,12 +161,12 @@ export const Vistara: Partnership = {
   hasEarn: true,
   icon: "vistara_2x_o4y0uv",
   iconReversed: "vistara_2x_o4y0uv",
-  joinUrl: "https://www.airvistara.com/trip/register",
+  joinUrl: "https://www.airvistara.com/trip/partner-register/luxuryescapes",
   landingPage: "club-vistara",
   landingPageLogo: "Vistara-Luxury-Escapes_evlamm",
   numberMaxLength: 14,
   prefix: "cvp",
-  programLogo: "vistaraLogo_2x_p6p4sd",
+  programLogo: "vistaraLogo_2x_p6p4ab",
   programName: "Club Vistara",
   regionCodes: [
     "IN",
