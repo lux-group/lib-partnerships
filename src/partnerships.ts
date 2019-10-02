@@ -1,6 +1,10 @@
+export interface AccountFieldsLabels {
+  [key: string]: string;
+}
+
 export interface Partnership {
   accountFields: string[];
-  accountFieldsLabels: object;
+  accountFieldsLabels: AccountFieldsLabels;
   bonusPointCost: number;
   bonusUnit: string;
   brandName: string;
