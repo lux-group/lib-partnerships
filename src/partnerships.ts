@@ -175,7 +175,7 @@ export const Vistara: Partnership = {
   regionCodes: [
     "IN",
   ],
-  reverseLogo: "VistaraLogoReverse_2x_f7a8ub",
+  reverseLogo: "VistaraLogoReverse_2x_f7a8un",
   rewardConversion: 0.05,
   rewardCurrency: "INR",
   rewardEarn: 5,
