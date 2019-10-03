@@ -167,7 +167,7 @@ export const Vistara: Partnership = {
   iconReversed: "vistara_2x_o4y0uv",
   joinUrl: "https://www.airvistara.com/trip/partner-register/luxuryescapes",
   landingPage: "club-vistara",
-  landingPageLogo: "Vistara-Luxury-Escapes_evlamm",
+  landingPageLogo: "Vistara-Luxury-Escapes_evlamb",
   numberMaxLength: 14,
   prefix: "cvp",
   programLogo: "vistaraLogo_2x_p6p4ab",
