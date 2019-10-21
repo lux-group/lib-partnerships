@@ -1,6 +1,6 @@
 {
   "name": "@luxuryescapes/lib-partnerships",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Partnership information for Luxury Escapes",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
