@@ -30,6 +30,7 @@ export interface Partnership {
   rewardEarn: number;
   rewardName: string;
   rewardPer: string;
+  rewardProgramName: string;
 }
 
 export const Qantas: Partnership = {
@@ -70,6 +71,7 @@ export const Qantas: Partnership = {
   rewardEarn: 1,
   rewardName: "Qantas Points",
   rewardPer: "$1",
+  rewardProgramName: "Qantas",
 };
 
 export const KrisFlyer: Partnership = {
@@ -136,8 +138,9 @@ export const KrisFlyer: Partnership = {
   rewardConversion: 1,
   rewardCurrency: "USD",
   rewardEarn: 1,
-  rewardName: "KrisFlyer miles",
+  rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
+  rewardProgramName: "KrisFlyer",
 };
 
 // Images Pending from AMANDA
@@ -181,4 +184,5 @@ export const Vistara: Partnership = {
   rewardEarn: 5,
   rewardName: "CV Points",
   rewardPer: "₹100",
+  rewardProgramName: "CV",
 };
