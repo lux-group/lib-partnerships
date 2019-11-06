@@ -138,12 +138,11 @@ export const KrisFlyer: Partnership = {
   rewardConversion: 1,
   rewardCurrency: "USD",
   rewardEarn: 1,
-  rewardName: "KrisFlyer Miles",
+  rewardName: "KrisFlyer miles",
   rewardPer: "$1 USD",
   rewardProgramName: "KrisFlyer",
 };
 
-// Images Pending from AMANDA
 export const Vistara: Partnership = {
   accountFields: [
     "account_id",
