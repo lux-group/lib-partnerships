@@ -155,7 +155,7 @@ export const Vistara: Partnership = {
     last_name: "Club Vistara Last Name",
   },
   bonusPointCost: 20,
-  bonusUnit: "point",
+  bonusUnit: "Point",
   brandName: "Vistara",
   code: "vistara",
   color: "#582c4f",
