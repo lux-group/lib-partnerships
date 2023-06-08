@@ -33,6 +33,7 @@ export interface Partnership {
   rewardProgramName: string;
 }
 
+/** @deprecated */
 export const Qantas: Partnership = {
   accountFields: [
     "account_id",
@@ -184,4 +185,45 @@ export const Vistara: Partnership = {
   rewardName: "CV Points",
   rewardPer: "₹100",
   rewardProgramName: "CV",
+};
+
+export const Velocity: Partnership = {
+  accountFields: [
+    "account_id",
+    "last_name",
+  ],
+  accountFieldsLabels: {
+    account_id: "",
+    last_name: "",
+  },
+  bonusPointCost: 0,
+  bonusUnit: "",
+  brandName: "Velocity",
+  code: "virgin",
+  color: "",
+  confirmationText: "",
+  currencyCodes: [
+    "AUD",
+  ],
+  hasBurn: true,
+  hasEarn: true,
+  icon: "",
+  iconReversed: "",
+  joinUrl: "",
+  landingPage: "",
+  landingPageLogo: "",
+  numberMaxLength: 14,
+  prefix: "vff",
+  programLogo: "",
+  programName: "Velocity frequent flyer",
+  regionCodes: [
+    "AU",
+  ],
+  reverseLogo: "",
+  rewardConversion: 1,
+  rewardCurrency: "AUD",
+  rewardEarn: 1,
+  rewardName: "Velocity Points",
+  rewardPer: "$1",
+  rewardProgramName: "Velocity",
 };
