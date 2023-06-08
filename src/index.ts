@@ -1,11 +1,10 @@
-import { KrisFlyer, Partnership, Qantas, Vistara } from "./partnerships";
-
-export { KrisFlyer, Partnership, Qantas, Vistara };
+import { KrisFlyer, Partnership, Qantas, Vistara, Velocity } from "./partnerships";
 
 const list = [
   Qantas,
   KrisFlyer,
   Vistara,
+  Velocity,
 ];
 
 function findPartnershipByCode(partnershipCode: string) {
