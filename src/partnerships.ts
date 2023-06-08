@@ -199,7 +199,7 @@ export const Velocity: Partnership = {
   bonusPointCost: 0,
   bonusUnit: "",
   brandName: "Velocity",
-  code: "virgin",
+  code: "velocity",
   color: "",
   confirmationText: "",
   currencyCodes: [
