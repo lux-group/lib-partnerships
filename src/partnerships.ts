@@ -190,10 +190,12 @@ export const Vistara: Partnership = {
 export const Velocity: Partnership = {
   accountFields: [
     "account_id",
+    "first_name",
     "last_name",
   ],
   accountFieldsLabels: {
     account_id: "",
+    first_name: "",
     last_name: "",
   },
   bonusPointCost: 0,
