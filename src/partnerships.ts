@@ -16,6 +16,7 @@ export interface Partnership {
   hasEarn: boolean;
   icon: string;
   iconReversed: string;
+  iconTooltipBaseText: string;
   joinUrl: string;
   landingPage: string;
   numberMaxLength: number;
@@ -56,6 +57,7 @@ export const Qantas: Partnership = {
   hasEarn: true,
   icon: "Qantas_2x_f6vhzx",
   iconReversed: "qantas_logo_reversed",
+  iconTooltipBaseText: "Qantas",
   joinUrl: "https://www.qantaspoints.com/join-now?code=LUXURYESCAPES",
   landingPage: "qantas-frequent-flyer",
   landingPageLogo: "Qantas-Luxury-Escapes_z3mtse",
@@ -94,24 +96,21 @@ export const KrisFlyer: Partnership = {
   confirmationText: "Your miles will land in your KrisFlyer account in 30 days.",
   currencyCodes: [
     "CNY",
-    "GBP",
     "HKD",
     "IDR",
     "JPY",
     "KRW",
     "MYR",
-    "NZD",
     "PHP",
     "SGD",
     "THB",
-    "TWD",
-    "USD",
     "VND",
   ],
   hasBurn: false,
   hasEarn: true,
   icon: "krisFlyer_2x_affst7",
   iconReversed: "krisFlyer_2x_affst7",
+  iconTooltipBaseText: "Singapore Airlines KrisFlyer",
   joinUrl: "https://www.singaporeair.com/en_UK/ppsclub-krisflyer/registration-form/",
   landingPage: "krisflyer",
   landingPageLogo: "KrisFlyer-Luxury-Escapes_1hagwg",
@@ -121,18 +120,14 @@ export const KrisFlyer: Partnership = {
   programName: "KrisFlyer",
   regionCodes: [
     "CN",
-    "GB",
     "HK",
     "ID",
     "JP",
     "KR",
     "MY",
-    "NZ",
     "PH",
     "SG",
     "TH",
-    "TW",
-    "US",
     "VN",
   ],
   reverseLogo: "krisFlyerLogoReverse_2x_ga1tta",
@@ -168,6 +163,7 @@ export const Vistara: Partnership = {
   hasEarn: true,
   icon: "vistara_2x_o4y0uv",
   iconReversed: "vistara_2x_o4y0uv",
+  iconTooltipBaseText: "Vistara",
   joinUrl: "https://www.airvistara.com/trip/partner-register/luxuryescapes",
   landingPage: "club-vistara",
   landingPageLogo: "Vistara-Luxury-Escapes_evlamb",
@@ -211,6 +207,7 @@ export const Velocity: Partnership = {
   hasEarn: true,
   icon: "",
   iconReversed: "",
+  iconTooltipBaseText: "Velocity",
   joinUrl: "",
   landingPage: "",
   landingPageLogo: "",
