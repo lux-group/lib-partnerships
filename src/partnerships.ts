@@ -16,7 +16,6 @@ export interface Partnership {
   hasEarn: boolean;
   icon: string;
   iconReversed: string;
-  iconTooltipBaseText: string;
   joinUrl: string;
   landingPage: string;
   numberMaxLength: number;
@@ -57,7 +56,6 @@ export const Qantas: Partnership = {
   hasEarn: true,
   icon: "Qantas_2x_f6vhzx",
   iconReversed: "qantas_logo_reversed",
-  iconTooltipBaseText: "Qantas",
   joinUrl: "https://www.qantaspoints.com/join-now?code=LUXURYESCAPES",
   landingPage: "qantas-frequent-flyer",
   landingPageLogo: "Qantas-Luxury-Escapes_z3mtse",
@@ -110,7 +108,6 @@ export const KrisFlyer: Partnership = {
   hasEarn: true,
   icon: "krisFlyer_2x_affst7",
   iconReversed: "krisFlyer_2x_affst7",
-  iconTooltipBaseText: "Singapore Airlines KrisFlyer",
   joinUrl: "https://www.singaporeair.com/en_UK/ppsclub-krisflyer/registration-form/",
   landingPage: "krisflyer",
   landingPageLogo: "KrisFlyer-Luxury-Escapes_1hagwg",
@@ -134,7 +131,7 @@ export const KrisFlyer: Partnership = {
   rewardConversion: 1,
   rewardCurrency: "USD",
   rewardEarn: 1,
-  rewardName: "KrisFlyer miles",
+  rewardName: "Singapore Airlines KrisFlyer Miles",
   rewardPer: "$1 USD",
   rewardProgramName: "KrisFlyer",
 };
@@ -163,7 +160,6 @@ export const Vistara: Partnership = {
   hasEarn: true,
   icon: "vistara_2x_o4y0uv",
   iconReversed: "vistara_2x_o4y0uv",
-  iconTooltipBaseText: "Vistara",
   joinUrl: "https://www.airvistara.com/trip/partner-register/luxuryescapes",
   landingPage: "club-vistara",
   landingPageLogo: "Vistara-Luxury-Escapes_evlamb",
@@ -207,7 +203,6 @@ export const Velocity: Partnership = {
   hasEarn: true,
   icon: "",
   iconReversed: "",
-  iconTooltipBaseText: "Velocity",
   joinUrl: "",
   landingPage: "",
   landingPageLogo: "",
