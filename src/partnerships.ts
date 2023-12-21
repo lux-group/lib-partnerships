@@ -131,7 +131,7 @@ export const KrisFlyer: Partnership = {
   rewardConversion: 1,
   rewardCurrency: "USD",
   rewardEarn: 1,
-  rewardName: "Singapore Airlines KrisFlyer Miles",
+  rewardName: "KrisFlyer Miles",
   rewardPer: "$1 USD",
   rewardProgramName: "KrisFlyer",
 };
