@@ -1,9 +1,8 @@
-import { KrisFlyer, Partnership, Qantas, Velocity, Vistara } from "./partnerships";
-export { KrisFlyer, Partnership, Qantas, Velocity, Vistara };
+import { KrisFlyer, Partnership, Qantas, Velocity } from "./partnerships";
+export { KrisFlyer, Partnership, Qantas, Velocity };
 const list = [
   Qantas,
   KrisFlyer,
-  Vistara,
   Velocity,
 ];
 
