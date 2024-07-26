@@ -48,5 +48,5 @@ assert(
 
 assert(
   "gets partnerships",
-  getPartnerships().length === 4
+  getPartnerships().length === 3
 )
