@@ -136,49 +136,6 @@ export const KrisFlyer: Partnership = {
   rewardProgramName: "KrisFlyer",
 };
 
-export const Vistara: Partnership = {
-  accountFields: [
-    "account_id",
-    "first_name",
-    "last_name",
-  ],
-  accountFieldsLabels: {
-    account_id: "Club Vistara ID",
-    first_name: "Club Vistara First Name",
-    last_name: "Club Vistara Last Name",
-  },
-  bonusPointCost: 20,
-  bonusUnit: "Point",
-  brandName: "Vistara",
-  code: "vistara",
-  color: "#582c4f",
-  confirmationText: "Your points will land in your Vistara account in 40 days.",
-  currencyCodes: [
-    "INR",
-  ],
-  hasBurn: false,
-  hasEarn: true,
-  icon: "vistara_2x_o4y0uv",
-  iconReversed: "vistara_2x_o4y0uv",
-  joinUrl: "https://www.airvistara.com/trip/partner-register/luxuryescapes",
-  landingPage: "club-vistara",
-  landingPageLogo: "Vistara-Luxury-Escapes_evlamb",
-  numberMaxLength: 14,
-  prefix: "cvp",
-  programLogo: "vistaraLogo_2x_p6p4ab",
-  programName: "Club Vistara",
-  regionCodes: [
-    "IN",
-  ],
-  reverseLogo: "VistaraLogoReverse_2x_f7a8un",
-  rewardConversion: 0.05,
-  rewardCurrency: "INR",
-  rewardEarn: 5,
-  rewardName: "CV Points",
-  rewardPer: "₹100",
-  rewardProgramName: "CV",
-};
-
 export const Velocity: Partnership = {
   accountFields: [
     "account_id",
